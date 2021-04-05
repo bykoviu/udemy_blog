@@ -7,3 +7,7 @@ class Post(models.Model):
     image = models.ImageField(upload_to='event_images')
     text = models.TextField()
     date = models.DateTimeField()
+
+
+
+
