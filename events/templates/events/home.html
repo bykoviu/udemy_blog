@@ -65,10 +65,10 @@
         <a class="nav-link" href="{% static 'aboutme.txt' %}">About Me</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Facebook</a>
+        <a class="nav-link" href="https://www.facebook.com/profile.php?id=100040668967539/">Facebook</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="">Blog</a>
+        <a class="nav-link" href="{% url 'show_posts' %}">Blog</a>
       </li>
     </ul>
   </div>
@@ -77,9 +77,11 @@
 
     <main role="main">
 
-      <section class="jumbotron text-center">
+      <section class="jumbotron text-center ">
         <div class="container">
-<!--          <h1 class="jumbotron-heading">Album example</h1>-->
+          <div>
+            <img src="{% static 'st.jpg' %}" width=200 height=200 >
+          </div>
           <p class="lead text-muted">Hey There! I'm excited to se you here! You can write me right now!</p>
           <p>
             <a href="mailto:bykov.i.u@gmail.com" class="btn btn-primary my-2">Mail me</a>
